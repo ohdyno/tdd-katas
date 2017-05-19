@@ -1,4 +1,4 @@
-package com.ford.tdd.katas.greeter
+package com.ford.labs.tdd.katas.greeter
 
 import io.kotlintest.matchers.shouldBe
 import io.kotlintest.specs.StringSpec

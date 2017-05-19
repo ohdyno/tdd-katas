@@ -1,4 +1,4 @@
-package com.ford.tdd.katas.greeter
+package com.ford.labs.tdd.katas.greeter
 
 class Greeter(val name: String) {
     fun greet(): String {
