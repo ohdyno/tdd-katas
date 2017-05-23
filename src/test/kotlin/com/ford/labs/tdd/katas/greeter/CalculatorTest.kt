@@ -39,11 +39,7 @@ class Calculator {
 
         val first = numbers.first().asInt()
 
-        val second =
-                if (hasMoreDigits(numbers))
-                    numbers.last().asInt()
-                else
-                    0
+        val second = if (hasMoreDigits(numbers)) numbers.last().asInt() else 0
 
         return first + second
     }
